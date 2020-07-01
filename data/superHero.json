@@ -1,0 +1,22 @@
+[
+    {
+        "superHero": "Batman",
+        "count": 2
+    },
+    {
+        "superHero": "Superman",
+        "count": 2
+    },
+    {
+        "superHero": "Wonder Woman",
+        "count": 1
+    },
+    {
+        "superHero": "Aqua Man",
+        "count": 0
+    },
+    {
+        "superHero": "Iron Man",
+        "count": 1
+    }
+]

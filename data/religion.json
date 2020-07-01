@@ -1,0 +1,18 @@
+[
+    {
+        "religion": "Christianity",
+        "count": 6
+    },
+    {
+        "religion": "Islam",
+        "count": 2
+    },
+    {
+        "religion": "Hinduism",
+        "count": 13
+    },
+    {
+        "religion": "Buddhism",
+        "count": 13
+    }
+]

@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title>Questionnaire</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+</head>
+
+<body>
+
+  <div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+    <h1>Survey</h1>
+    <form>
+      <h2> Who is your favorite superhero? </h2>
+      I like:<br>
+      <input type="text" name="superHero" placeholder="Super Hero name..." required />
+      <br>
+      <br>
+
+      <h2> Which Univeristy do you go to? </h2>
+      I like:<br>
+      <input type="text" name="univeristy" placeholder="univeristy name..." required />
+      <br>
+      <br>
+
+      <h2> What is your favorite console? </h2>
+      I like:<br>
+      <input type="checkbox" name="console" value="PCMasterRace"> PCMasterRace<br>
+      <input type="checkbox" name="console" value="Xbox"> Xbox<br>
+      <input type="checkbox" name="console" value="PlayStation"> PlayStation<br>
+      <input type="checkbox" name="console" value="Wii"> Wii<br>
+      <br>
+
+      <h2>What is your favorite pet?</h2>
+      I like:<br>
+      <select name="pet">
+        <option value="Cat" selected="selected">Cat</option>
+        <option value="Dog">Dog</option>
+        <option value="BeardedDragon">Bearded Dragon</option>
+        <option value="Turtle">Turtle</option>
+        <option value="Snake">Snake</option>
+        <option value="Rock">Rock</option>
+      </select>
+      <br>
+      <br>
+
+      <h2>What religion do you identify with?</h2>
+      <input type="radio" id="christianity" name="religion" value="Christianity">
+      <label for="christianity">Christianity</label><br>
+      <input type="radio" id="islam" name="religion" value="Islam">
+      <label for="islam"></label>Islam<br>
+      <input type="radio" id="hinduism" name="religion" value="Hinduism">
+      <label for="hinduism">Hinduism</label><br>
+      <input type="radio" id="buddhism" name="religion" value="Buddhism">
+      <label for="buddhism">Buddhism</label><br>
+
+      <h2>Which language is spoken in your home?</h2>
+      <select name="">
+        <option value="English" selected="selected">English</option>
+        <option value="Spanish">Dog</option>
+        <option value="American">American</option>
+        <option value="Turtle">Turtle</option>
+        <option value="Mandarin">Mandarin</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+      <br>
+      <br>
+
+      <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+      <p id="thanks"></p>
+
+    </form>
+  </div>
+  <script src="/assets/action.js"></script>
+</body>
+
+</html>

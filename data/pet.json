@@ -1,0 +1,14 @@
+[
+    {
+        "pet": "Cat",
+        "count": 6
+    },
+    {
+        "pet": "Dog",
+        "count": 2
+    },
+    {
+        "pet": "Turtle",
+        "count": 13
+    }
+]

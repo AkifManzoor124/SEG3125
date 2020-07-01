@@ -1,0 +1,18 @@
+[
+    {
+        "console": "PCMasterRace",
+        "count": 12
+    },
+    {
+        "console": "Xbox",
+        "count": 11
+    },
+    {
+        "console": "PlayStation",
+        "count": 7
+    },
+    {
+        "console": "Wii",
+        "count": 7
+    }
+]

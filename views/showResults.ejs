@@ -1,0 +1,51 @@
+<html lang="en-US">
+<head>
+    <title>Survey Analysis</title>
+</head>
+
+<body>
+    <h1>Survey analysis</h1>
+
+    <h2>Console</h2>
+    <ul>
+    <% for (var i=0; i<results[0].length; i++){ %>
+        <li><%= results[0][i].console %> :  <%= results[0][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Super Hero</h2>
+    <ul>
+    <% for (var i=0; i<results[1].length; i++){ %>
+        <li><%= results[1][i].superHero %> :  <%= results[1][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Pet</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[2][i].pet %> :  <%= results[2][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>University</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[3][i].university %> :  <%= results[3][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Language</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[4][i].language %> :  <%= results[4][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Religion</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[5][i].religion %> :  <%= results[5][i].count %></li>
+    <% } %>    
+    </ul>
+</body>
+</html>
