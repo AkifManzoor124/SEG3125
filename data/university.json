@@ -1,14 +1,1 @@
-[
-    {
-        "university": "uOttawa",
-        "count": 6
-    },
-    {
-        "university": "uWaterloo",
-        "count": 2
-    },
-    {
-        "university": "UofT",
-        "count": 13
-    }
-]
+[{"university":"uOttawa","count":9},{"university":"uWaterloo","count":2},{"university":"UofT","count":13}]

@@ -45,10 +45,10 @@ module.exports = function(app){
         var console = readData("console");
         var superHero = readData("superHero");
         var pet = readData("pet");
-        var univeristy = readData("university");
+        var university = readData("university");
         var language = readData("language");
         var religion = readData("religion");
-        res.render('showResults', {results: [console, superHero, pet, univeristy, language, religion]});
+        res.render('showResults', {results: [console, superHero, pet, university, language, religion]});
     });
 
     // when a user goes to localhost:3000/niceSurvey
